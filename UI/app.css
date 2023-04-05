@@ -1,0 +1,81 @@
+/* Set the background color and padding of the navigation bar */
+.navbar {
+  background-color: #73c5eb;
+  padding: 10px;
+}
+
+/* Set the font size, color and alignment of the navigation bar brand */
+.navbar-brand {
+  font-size: 28px;
+  color: #000000;
+  text-align: center;
+}
+
+/* Add a hover effect to the navigation bar brand */
+.navbar-brand:hover {
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+.card-wrapper {
+    margin: 5% 0;
+  }
+  
+/* You can adjust the image size by increasing/decreasing the width, height */
+.custom-circle-image {
+  width: 11vw; /* note i used vw not px for better responsive */
+  height: 12vw;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+}
+
+.card-title {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1.1px;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 15px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 15px;
+  line-height: initial;
+  color: red;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
